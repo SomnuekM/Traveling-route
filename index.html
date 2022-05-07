@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#37BC9B">
+    <meta name="author" content="Somnuek Mueanprasan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+   
+    <link rel="icon" type="image/png" href="img/map.png">
+    <title>Travel-Rout</title>
+
+    <!-- polyline -->
+    <script type="text/javascript" src="leaflet_polyline/polyline.js"></script>
+    <script type="text/javascript" src="leaflet_polyline/Polyline.encoded.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@latest/dist/leaflet.css" />
+    <script type="text/javascript" src="https://unpkg.com/leaflet@latest/dist/leaflet-src.js"></script>
+    
+    <link rel="stylesheet" href="leaflet-routing-machine/leaflet-routing-machine.css" />
+    <script type="text/javascript" src="https://unpkg.com/leaflet.icon.glyph@0.2.0/Leaflet.Icon.Glyph.js"></script>
+    <script type="text/javascript" src="leaflet-routing-machine/Control.Geocoder.js"></script>
+    <script type="text/javascript" src="leaflet-routing-machine/leaflet-routing-machine.js"></script>
+    <style>
+     body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: -1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="map" class="map"></div>
+    <script type="text/javascript" src="leaflet-routing-machine/Control.Geocoder.js"></script>
+    <script type="text/javascript" src="mapbox.js"></script>
+</body>
+
+</html>
